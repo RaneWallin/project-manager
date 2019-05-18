@@ -1,7 +1,14 @@
 import React from 'react';
 
+// components
+import ProjectContainer from './components/ProjectContainer';
+
 const App = _ => {
-    return <div>React app</div>
+    return (
+        <div className="container">
+            <ProjectContainer />
+        </div>
+    );
 }
 
 export default App;
